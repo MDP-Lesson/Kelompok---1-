@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">RecipeDiaryProject</string>
+    <string name="menu_categories">Menu Categories</string>
+    <string name="ingredients"> 1 Whole Chicken\n
+        1 Chopped Tomato \n
+        2 Chopped Onions \n
+        2 Chopped Garlic Clove \n
+        1 Chopped Red Pepper \n
+        1 Chopped Carrots \n
+        1 Lime \n
+        2 Tsp Thyme \n
+        1 Tsp Allspice \n
+        2 Tbs Soy Sauce \n
+        2 Tsp Cornstarch \n
+        2 Cups Coconut Milk \n
+        1 Tbs Vegetable Oil \n</string>
+    <string name="instruction">
+        1. Squeeze lime over chicken and rub well. \n
+        2. Drain off excess lime juice.\n
+        3. Combine tomato, scallion, onion, garlic, pepper, thyme, pimento and soy sauce in a large bowl with the chicken pieces. \n
+        4. Cover and marinate at least one hour. \n
+        5. Heat oil in a dutch pot or large saucepan. \n
+        6. Shake off the seasonings as you remove each piece of chicken from the marinade. \n
+        7. Reserve the marinade for sauce. \n
+        8. Lightly brown the chicken a few pieces at a time in very hot oil. \n
+        9. Place browned chicken pieces on a plate to rest while you brown the remaining pieces. \n
+        10. Drain off excess oil and return the chicken to the pan. \n
+        11. Pour the marinade over the chicken and add the carrots. \n
+        12. Stir and cook over medium heat for 10 minutes. \n
+        13. Mix flour and coconut milk and add to stew, stirring constantly. \n
+        14. Turn heat down to minimum and cook another 20 minutes or until tender. \n
+    </string>
+
+
+</resources>

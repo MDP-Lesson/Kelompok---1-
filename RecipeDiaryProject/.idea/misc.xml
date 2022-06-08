@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Kuliah/Semester 4/Pemograman Aplikasi Bergerak I/Tugas/RecipeDiaryProject/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Kuliah/Semester 4/Pemograman Aplikasi Bergerak I/Tugas/RecipeDiaryProject/app/src/main/res/layout/activity_meal_categories.xml" value="0.27447916666666666" />
+        <entry key="..\:/Kuliah/Semester 4/Pemograman Aplikasi Bergerak I/Tugas/RecipeDiaryProject/app/src/main/res/layout/activity_recipe_detail.xml" value="0.27447916666666666" />
+        <entry key="..\:/Kuliah/Semester 4/Pemograman Aplikasi Bergerak I/Tugas/RecipeDiaryProject/app/src/main/res/layout/activity_recipe_list.xml" value="0.27447916666666666" />
+        <entry key="..\:/Kuliah/Semester 4/Pemograman Aplikasi Bergerak I/Tugas/RecipeDiaryProject/app/src/main/res/layout/activity_splash.xml" value="0.17481884057971014" />
+        <entry key="..\:/Kuliah/Semester 4/RecipeDiaryProject/app/src/main/res/layout/activity_cocktail.xml" value="0.27447916666666666" />
+        <entry key="..\:/Kuliah/Semester 4/RecipeDiaryProject/app/src/main/res/layout/activity_main.xml" value="0.27447916666666666" />
+        <entry key="..\:/Kuliah/Semester 4/RecipeDiaryProject/app/src/main/res/layout/activity_recipe_list.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

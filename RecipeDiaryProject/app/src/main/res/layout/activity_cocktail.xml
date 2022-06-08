@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CocktailActivity"
+    android:background="#FFEBEE">
+
+    <TextView
+        android:id="@+id/tv_menudrink"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:fontFamily="serif-monospace"
+        android:padding="20dp"
+        android:shadowColor="@color/black"
+        android:background="#FFCDD2"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="2"
+        android:text="Menu Cocktail"
+        android:textAlignment="center"
+        android:textColor="#E57373"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/iv_vodka"
+        android:layout_width="196dp"
+        android:layout_height="190dp"
+        android:padding="2dp"
+        android:src="@drawable/vodka"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_menudrink"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/tv_vodka"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif-monospace"
+        android:padding="16dp"
+        android:shadowColor="@color/black"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="2"
+        android:text="VODKA"
+        android:textColor="#F48FB1"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/iv_vodka"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iv_vodka" />
+
+    <ImageView
+        android:id="@+id/iv_gin"
+        android:layout_width="196dp"
+        android:layout_height="190dp"
+        android:layout_marginLeft="5dp"
+        android:padding="2dp"
+        android:src="@drawable/gin"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/iv_vodka"
+        app:layout_constraintTop_toBottomOf="@+id/tv_menudrink"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/tv_gin"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:fontFamily="serif-monospace"
+        android:padding="16dp"
+        android:shadowColor="@color/black"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="2"
+        android:text="GIN"
+        android:textColor="#F48FB1"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/iv_gin"
+        app:layout_constraintStart_toEndOf="@+id/iv_vodka"
+        app:layout_constraintTop_toBottomOf="@+id/iv_gin" />
+
+    <ImageView
+        android:id="@+id/iv_tequila"
+        android:layout_width="196dp"
+        android:layout_height="190dp"
+        android:padding="2dp"
+        android:src="@drawable/tequila"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_vodka"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/tv_tequila"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:fontFamily="serif-monospace"
+        android:padding="16dp"
+        android:shadowColor="@color/black"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="2"
+        android:text="TEQUILA"
+        android:textColor="#F48FB1"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/iv_tequila"
+        app:layout_constraintHorizontal_bias="0.444"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iv_tequila" />
+
+    <ImageView
+        android:id="@+id/iv_rum"
+        android:layout_width="196dp"
+        android:layout_height="190dp"
+        android:padding="2dp"
+        android:layout_marginLeft="5dp"
+        android:src="@drawable/rum"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/iv_tequila"
+        app:layout_constraintTop_toBottomOf="@id/tv_gin"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/tv_rum"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:fontFamily="serif-monospace"
+        android:padding="16dp"
+        android:shadowColor="@color/black"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="2"
+        android:text="RUM"
+        android:textColor="#F48FB1"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/iv_gin"
+        app:layout_constraintStart_toEndOf="@+id/iv_tequila"
+        app:layout_constraintTop_toBottomOf="@+id/iv_rum" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

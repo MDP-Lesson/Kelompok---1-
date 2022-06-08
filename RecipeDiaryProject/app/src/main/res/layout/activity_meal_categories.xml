@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MealCategoriesActivity"
+    android:background="#FFEBEE">
+
+    <TextView
+        android:id="@+id/tv_menumeals"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:fontFamily="serif-monospace"
+        android:padding="30dp"
+        android:shadowColor="@color/black"
+        android:background="#FFCDD2"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="2"
+        android:text="Menu Meals"
+        android:textAlignment="center"
+        android:textColor="#E57373"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/iv_chicken"
+        android:layout_width="196dp"
+        android:layout_height="190dp"
+        android:padding="2dp"
+        android:src="@drawable/chicken"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_menumeals"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/tv_chicken"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif-monospace"
+        android:padding="16dp"
+        android:shadowColor="@color/black"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="2"
+        android:text="CHICKEN"
+        android:textColor="#F48FB1"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/iv_chicken"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iv_chicken" />
+
+    <ImageView
+        android:id="@+id/iv_beef"
+        android:layout_width="196dp"
+        android:layout_height="190dp"
+        android:layout_marginLeft="5dp"
+        android:padding="2dp"
+        android:src="@drawable/beef"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/iv_chicken"
+        app:layout_constraintTop_toBottomOf="@+id/tv_menumeals"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/tv_beef"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:fontFamily="serif-monospace"
+        android:padding="16dp"
+        android:shadowColor="@color/black"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="2"
+        android:text="BEEF"
+        android:textColor="#F48FB1"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/iv_beef"
+        app:layout_constraintStart_toEndOf="@+id/iv_chicken"
+        app:layout_constraintTop_toBottomOf="@+id/iv_beef" />
+
+    <ImageView
+        android:id="@+id/iv_salmon"
+        android:layout_width="196dp"
+        android:layout_height="190dp"
+        android:padding="2dp"
+        android:src="@drawable/salmon"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_chicken"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/tv_salmon"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:fontFamily="serif-monospace"
+        android:padding="16dp"
+        android:shadowColor="@color/black"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="2"
+        android:text="SALMON"
+        android:textColor="#F48FB1"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/iv_salmon"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iv_salmon"/>
+
+    <ImageView
+        android:id="@+id/iv_pork"
+        android:layout_width="196dp"
+        android:layout_height="190dp"
+        android:padding="2dp"
+        android:layout_marginLeft="5dp"
+        android:src="@drawable/pork"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/iv_salmon"
+        app:layout_constraintTop_toBottomOf="@id/tv_beef"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/tv_pork"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:fontFamily="serif-monospace"
+        android:padding="16dp"
+        android:shadowColor="@color/black"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="2"
+        android:text="PORK"
+        android:textColor="#F48FB1"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/iv_pork"
+        app:layout_constraintStart_toEndOf="@+id/iv_salmon"
+        app:layout_constraintTop_toBottomOf="@+id/iv_pork" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
