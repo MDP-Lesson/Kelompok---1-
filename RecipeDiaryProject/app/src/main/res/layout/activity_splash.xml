@@ -4,8 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".SplashActivity"
-    android:background="#FFEBEE">
+    tools:context=".SplashActivity">
 
     <TextView
         android:id="@+id/tv_cover"
@@ -13,17 +12,17 @@
         android:layout_height="match_parent"
         android:text="My Recipe Dairy"
         android:textStyle="bold"
-        android:textSize="30sp"
-        android:textColor="#F48FB1"
+        android:textSize="40sp"
+        android:textColor="#121212"
         android:shadowColor="@color/black"
         android:shadowDx="1"
         android:shadowDy="1"
         android:shadowRadius="2"
-        android:fontFamily="sans-serif-smallcaps"
+        android:fontFamily="@font/typewcond"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        android:padding="20dp"/>
+        android:padding="30dp"/>
 
     <ImageView
         android:id="@+id/iv_cover"
@@ -39,12 +38,12 @@
         android:text="V.1.1"
         android:textStyle="bold"
         android:textSize="20sp"
-        android:textColor="#F48FB1"
+        android:textColor="#000000"
         android:shadowColor="@color/black"
         android:shadowDx="1"
         android:shadowDy="1"
         android:shadowRadius="2"
-        android:fontFamily="sans-serif-smallcaps"
+        android:fontFamily="@font/typewcond"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

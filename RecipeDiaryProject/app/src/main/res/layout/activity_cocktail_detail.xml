@@ -4,11 +4,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".RecipeDetailActivity">
+    tools:context=".CocktailDetailActivity">
 
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/rv_detail_recipe"
+        android:id="@+id/rv_detail_cocktail"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        tools:listitem="@layout/item_recipe_detail"/>
+        tools:listitem="@layout/item_cocktail_detail"/>
+
 </ScrollView>

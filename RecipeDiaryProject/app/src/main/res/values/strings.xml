@@ -1,19 +1,19 @@
 <resources>
     <string name="app_name">RecipeDiaryProject</string>
     <string name="menu_categories">Menu Categories</string>
-    <string name="ingredients"> 1 Whole Chicken\n
-        1 Chopped Tomato \n
-        2 Chopped Onions \n
-        2 Chopped Garlic Clove \n
-        1 Chopped Red Pepper \n
-        1 Chopped Carrots \n
-        1 Lime \n
-        2 Tsp Thyme \n
-        1 Tsp Allspice \n
-        2 Tbs Soy Sauce \n
-        2 Tsp Cornstarch \n
-        2 Cups Coconut Milk \n
-        1 Tbs Vegetable Oil \n</string>
+    <string name="ingredients"> 1 Whole Chicken,
+        1 Chopped Tomato,
+        2 Chopped Onions,
+        2 Chopped Garlic Clove,
+        1 Chopped Red Pepper,
+        1 Chopped Carrots,
+        1 Lime,
+        2 Tsp Thyme,
+        1 Tsp Allspice,
+        2 Tbs Soy Sauce,
+        2 Tsp Cornstarch,
+        2 Cups Coconut Milk,
+        1 Tbs Vegetable Oil</string>
     <string name="instruction">
         1. Squeeze lime over chicken and rub well. \n
         2. Drain off excess lime juice.\n
@@ -30,6 +30,7 @@
         13. Mix flour and coconut milk and add to stew, stirring constantly. \n
         14. Turn heat down to minimum and cook another 20 minutes or until tender. \n
     </string>
+    <string name="descriptions">Preheat oven to 350° F. Spray a 9x13-inch baking pan with non-stick spray. Combine soy sauce, ½ cup water, brown sugar, ginger and garlic in a small saucepan and cover. Bring to a boil over medium heat. Remove lid and cook for one minute once boiling. Meanwhile, stir together the corn starch and 2 tablespoons of water in a separate dish until smooth. Once sauce is boiling, add mixture to the saucepan and stir to combine. Cook until the sauce starts to thicken then remove from heat. Place the chicken breasts in the prepared pan. Pour one cup of the sauce over top of chicken. Place chicken in oven and bake 35 minutes or until cooked through. Remove from oven and shred chicken in the dish using two forks. *Meanwhile, steam or cook the vegetables according to package directions. Add the cooked vegetables and rice to the casserole dish with the chicken. Add most of the remaining sauce, reserving a bit to drizzle over the top when serving. Gently toss everything together in the casserole dish until combined. Return to oven and cook 15 minutes. Remove from oven and let stand 5 minutes before serving. Drizzle each serving with remaining sauce. Enjoy!</string>
 
 
 </resources>

@@ -4,11 +4,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".CocktailActivity">
+    tools:context=".FoodActivity">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
+
 
         <TextView
             android:id="@+id/tv_menu"
@@ -16,29 +17,27 @@
             android:layout_height="wrap_content"
             android:fontFamily="@font/typewcond"
             android:padding="16dp"
-            android:shadowColor="@color/black"
             android:shadowDx="1"
             android:shadowDy="1"
             android:shadowRadius="2"
-            android:text="Cocktail Various"
+            android:text="Food Category"
             android:textAlignment="center"
             android:textColor="#000000"
-            android:textSize="36sp"
+            android:textSize="36dp"
             android:textStyle="bold"
             app:layout_constraintTop_toTopOf="parent" />
 
         <androidx.recyclerview.widget.RecyclerView
-            android:id="@+id/rv_cocktail_categories"
+            android:id="@+id/rv_menu_categories"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/tv_menu"
-            tools:listitem="@layout/item_list_recipe"
+            tools:listitem="@layout/item_menu_categories"
             tools:itemCount="4"/>
 
+
     </androidx.constraintlayout.widget.ConstraintLayout>
-
-
 
 </ScrollView>

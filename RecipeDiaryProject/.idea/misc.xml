@@ -3,14 +3,37 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Kuliah/Semester 4/Pemograman Aplikasi Bergerak I/Tugas/RecipeDiaryProject/app/src/main/res/layout/activity_main.xml" value="0.2" />
-        <entry key="..\:/Kuliah/Semester 4/Pemograman Aplikasi Bergerak I/Tugas/RecipeDiaryProject/app/src/main/res/layout/activity_meal_categories.xml" value="0.27447916666666666" />
-        <entry key="..\:/Kuliah/Semester 4/Pemograman Aplikasi Bergerak I/Tugas/RecipeDiaryProject/app/src/main/res/layout/activity_recipe_detail.xml" value="0.27447916666666666" />
-        <entry key="..\:/Kuliah/Semester 4/Pemograman Aplikasi Bergerak I/Tugas/RecipeDiaryProject/app/src/main/res/layout/activity_recipe_list.xml" value="0.27447916666666666" />
-        <entry key="..\:/Kuliah/Semester 4/Pemograman Aplikasi Bergerak I/Tugas/RecipeDiaryProject/app/src/main/res/layout/activity_splash.xml" value="0.17481884057971014" />
-        <entry key="..\:/Kuliah/Semester 4/RecipeDiaryProject/app/src/main/res/layout/activity_cocktail.xml" value="0.27447916666666666" />
-        <entry key="..\:/Kuliah/Semester 4/RecipeDiaryProject/app/src/main/res/layout/activity_main.xml" value="0.27447916666666666" />
-        <entry key="..\:/Kuliah/Semester 4/RecipeDiaryProject/app/src/main/res/layout/activity_recipe_list.xml" value="0.1" />
+        <entry key="..\:/Angel Kuliah/Semester IV/Statistik/RecipeDiaryProject1/RecipeDiaryProject/app/src/main/res/layout/activity_cocktail.xml" value="0.264" />
+        <entry key="..\:/Angel Kuliah/Semester IV/Statistik/RecipeDiaryProject1/RecipeDiaryProject/app/src/main/res/layout/activity_cocktail_detail.xml" value="0.264" />
+        <entry key="..\:/Angel Kuliah/Semester IV/Statistik/RecipeDiaryProject1/RecipeDiaryProject/app/src/main/res/layout/activity_food.xml" value="0.1" />
+        <entry key="..\:/Angel Kuliah/Semester IV/Statistik/RecipeDiaryProject1/RecipeDiaryProject/app/src/main/res/layout/activity_main.xml" value="0.26571428571428574" />
+        <entry key="..\:/Angel Kuliah/Semester IV/Statistik/RecipeDiaryProject1/RecipeDiaryProject/app/src/main/res/layout/activity_menu_utama.xml" value="0.22826086956521738" />
+        <entry key="..\:/Angel Kuliah/Semester IV/Statistik/RecipeDiaryProject1/RecipeDiaryProject/app/src/main/res/layout/activity_recipe_detail.xml" value="0.264" />
+        <entry key="..\:/Angel Kuliah/Semester IV/Statistik/RecipeDiaryProject1/RecipeDiaryProject/app/src/main/res/layout/activity_recipe_list.xml" value="0.264" />
+        <entry key="..\:/Angel Kuliah/Semester IV/Statistik/RecipeDiaryProject1/RecipeDiaryProject/app/src/main/res/layout/activity_splash.xml" value="0.2" />
+        <entry key="..\:/Angel Kuliah/Semester IV/Statistik/RecipeDiaryProject1/RecipeDiaryProject/app/src/main/res/layout/activity_tutorial.xml" value="0.22826086956521738" />
+        <entry key="..\:/Angel Kuliah/Semester IV/Statistik/RecipeDiaryProject1/RecipeDiaryProject/app/src/main/res/layout/item_cocktail_detail.xml" value="0.2" />
+        <entry key="..\:/Angel Kuliah/Semester IV/Statistik/RecipeDiaryProject1/RecipeDiaryProject/app/src/main/res/layout/item_list_recipe.xml" value="0.22826086956521738" />
+        <entry key="..\:/Angel Kuliah/Semester IV/Statistik/RecipeDiaryProject1/RecipeDiaryProject/app/src/main/res/layout/item_menu_categories.xml" value="0.22826086956521738" />
+        <entry key="..\:/Angel Kuliah/Semester IV/Statistik/RecipeDiaryProject1/RecipeDiaryProject/app/src/main/res/layout/item_recipe_detail.xml" value="0.264" />
+        <entry key="..\:/Film/RecipeDiaryProject/app/src/main/res/layout/activity_cocktail.xml" value="0.2635135135135135" />
+        <entry key="..\:/Film/RecipeDiaryProject/app/src/main/res/layout/activity_cocktail_detail.xml" value="0.27447916666666666" />
+        <entry key="..\:/Film/RecipeDiaryProject/app/src/main/res/layout/activity_food.xml" value="0.1" />
+        <entry key="..\:/Film/RecipeDiaryProject/app/src/main/res/layout/activity_main.xml" value="0.27447916666666666" />
+        <entry key="..\:/Film/RecipeDiaryProject/app/src/main/res/layout/activity_recipe_detail.xml" value="0.1" />
+        <entry key="..\:/Film/RecipeDiaryProject/app/src/main/res/layout/activity_recipe_list.xml" value="0.17753623188405798" />
+        <entry key="..\:/Film/RecipeDiaryProject/app/src/main/res/layout/activity_tutorial.xml" value="0.1265625" />
+        <entry key="..\:/Film/RecipeDiaryProject/app/src/main/res/layout/item_cocktail_detail.xml" value="0.2078804347826087" />
+        <entry key="..\:/Film/RecipeDiaryProject/app/src/main/res/layout/item_list_recipe.xml" value="0.264" />
+        <entry key="..\:/Film/RecipeDiaryProject/app/src/main/res/layout/item_menu_categories.xml" value="0.27447916666666666" />
+        <entry key="..\:/Film/RecipeDiaryProject/app/src/main/res/layout/item_recipe_detail.xml" value="0.1" />
+        <entry key="..\:/Film/THE BOYZ/RecipeDiaryProject1/RecipeDiaryProject/app/src/main/res/drawable/bg_cornen_full.xml" value="0.1995" />
+        <entry key="..\:/Film/THE BOYZ/RecipeDiaryProject1/RecipeDiaryProject/app/src/main/res/layout/activity_cocktail.xml" value="0.2140625" />
+        <entry key="..\:/Film/THE BOYZ/RecipeDiaryProject1/RecipeDiaryProject/app/src/main/res/layout/activity_cocktail_detail.xml" value="0.2140625" />
+        <entry key="..\:/Film/THE BOYZ/RecipeDiaryProject1/RecipeDiaryProject/app/src/main/res/layout/activity_recipe_detail.xml" value="0.2140625" />
+        <entry key="..\:/Film/THE BOYZ/RecipeDiaryProject1/RecipeDiaryProject/app/src/main/res/layout/item_cocktail_detail.xml" value="0.4" />
+        <entry key="..\:/Film/THE BOYZ/RecipeDiaryProject1/RecipeDiaryProject/app/src/main/res/layout/item_list_recipe.xml" value="0.264" />
+        <entry key="..\:/Film/THE BOYZ/RecipeDiaryProject1/RecipeDiaryProject/app/src/main/res/layout/item_recipe_detail.xml" value="0.2140625" />
       </map>
     </option>
   </component>
