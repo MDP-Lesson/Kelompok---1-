@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NutrisiActivity">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/tv_nutrition"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nutrition"
+            android:textStyle="bold"
+            android:textSize="36sp"
+            android:textColor="#000000"
+            android:shadowColor="@color/black"
+            android:shadowDx="1"
+            android:shadowDy="1"
+            android:shadowRadius="2"
+            android:fontFamily="@font/typewcond"
+            android:padding="16dp"
+            android:textAlignment="center"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/tv_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Input food or drink items"
+            android:textSize="18sp"
+            android:layout_marginTop="16dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="10dp"
+            android:textColor="#3A3845"
+            android:fontFamily="@font/comic"
+            app:layout_constraintStart_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_nutrition"/>
+
+
+        <EditText
+            android:id="@+id/et_search"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:hint="Input here"
+            android:fontFamily="@font/typewcond"
+            android:textSize="16sp"
+            android:textStyle="italic"
+            android:textAlignment="textStart"
+            android:textColor="#8E8B8B"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_input"
+            app:layout_constraintVertical_bias="0.0"
+            tools:ignore="MissingConstraints" />
+
+        <Button
+            android:id="@+id/btn_run"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Check Result"
+            android:textColor="@color/white"
+            android:layout_marginTop="16dp"
+            android:textSize="16sp"
+            android:padding="16dp"
+            android:textStyle="bold"
+            android:background="#3A3845"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:fontFamily="@font/baskerville"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/et_search"/>
+
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+</ScrollView>
